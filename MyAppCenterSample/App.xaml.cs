@@ -16,7 +16,6 @@ namespace MyAppCenterSample
 
         protected override void OnStart()
         {
-            
             AppCenter.Start("ios=fb702ddd-65c3-4143-91d2-ca94f215106d;" + "uwp={Your UWP App secret here};" +
                    "android={Your Android App secret here}",
                    typeof(Analytics), typeof(Crashes));
